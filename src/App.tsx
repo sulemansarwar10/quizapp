@@ -21,7 +21,9 @@ function App() {
       setcurrstep(currstep + 1);
     }
     else {
-
+      alert("your score: " + score + "out of " + quiz.length)
+      setcurrstep(0)
+      setscore(0)
     }
   }
 
